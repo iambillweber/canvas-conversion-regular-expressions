@@ -4,11 +4,11 @@ The following Regular Expressions were helpful in cleaning up Content from D2L B
 
 ## How to Use
 
-1. Download Content from [Manage Files](https://www.wisconsin.edu/learning-tech/resources/d2l-cleanup/how-to/download-course-files-2/" target="_blank) in your Brightspace course.
+1. Download Content from [Manage Files](https://www.wisconsin.edu/learning-tech/resources/d2l-cleanup/how-to/download-course-files-2/) in your Brightspace course.
 
 2. Unzip the Content on your local computer.
 
-3. Open an HTML file using a text editor that supports multi-file GREP searching, e.g. [BBEdit](https://www.barebones.com/products/bbedit" target="_blank).
+3. Open an HTML file using a text editor that supports multi-file GREP searching, e.g. [BBEdit](https://www.barebones.com/products/bbedit).
 
 4. Run each expression.
 
