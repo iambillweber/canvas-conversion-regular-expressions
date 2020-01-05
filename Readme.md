@@ -19,81 +19,81 @@ After running each expression, we would zip the files back up and upload them ba
 # Regular Expressions
 
 ## Remove HTML Comments
-*Find:* <!--(.*?)-->
+*Find:* `<!--(.*?)-->`
 *Replace:* null 
 
 ## Remove Header Tags (and everything between them)
-*Find:* <header(.*?)>[^"]*</header>
+*Find:* `<header(.*?)>[^"]*</header>`
 *Replace:* null
 
 ## Remove Opening Layer/Div Tags
-*Find:* <div(.*?)>
+*Find:* `<div(.*?)>`
 *Replace:* null
 
 ## Remove Closing Div Tags
-*Find:* </div>
+*Find:* `</div>`
 *Replace:* null
 
 ## Remove Opening Section Tags
-*Find:* <section(.*?)>
+*Find:* `<section(.*?)>`
 *Replace:* null
 
 ## Remove Closing Section Tags
-*Find:* </section>
+*Find:* `</section>`
 *Replace:* null
 
 ## Remove Opening Article Tags
-*Find:* <article(.*?)>
+*Find:* `<article(.*?)>`
 *Replace:* null
 
 ## Remove Closing Article Tags
-*Find:* </article>
+*Find:* `</article>'
 *Replace:* null
 
 ## Remove Stylesheet Links
-*Find:* <link(.*?)>
+*Find:* `<link(.*?)>`
 *Replace:* null
 
-*Note:* Will remove <link> tags where ever they are in the file.
+*Note:* Will remove `<link>` tags where ever they are in the file.
 
 ## Change Opening Aside Tags to Opening Paragraphs
-*Find:* <aside
-*Replace:* <p
+*Find:* `<aside`
+*Replace:* `<p`
 
 ## Change Closing Aside Tags to Closing Paragraphs 
-*Find:* </aside>
-*Replace:* </p>
+*Find:* `</aside>`
+*Replace:* `</p>`
 
 ## Change Opening Figure Tags to Opening Paragraphs
-*Find:* <figure
-*Replace:* <p
+*Find:* `<figure`
+*Replace:* `<p`
 
 ## Change Closing Figure Tags to Closing Paragraphs 
-*Find:* </figure>
-*Replace:* </p>
+*Find:* `</figure>`
+*Replace:* `</p>`
 
 ## Change Opening FigCaption Tags
-*Find:* <figcaption>
-*Replace:* <br /><span style="font-size: .75em; padding-left: auto; padding-right: auto;">
+*Find:* `<figcaption>`
+*Replace:* `<br /><span style="font-size: .75em; padding-left: auto; padding-right: auto;">`
 
 ## Change Closing FigCaption Tags
-*Find:* </figcaption>
-*Replace:* </span>
+*Find:* `</figcaption>`
+*Replace:* `</span>`
 
 ## Remove Footer Tags (and everything between them)
-*Find:* <footer(.*?)>[^"]*</footer>
+*Find:* `<footer(.*?)>[^"]*</footer>`
 *Replace:* null
 
 ## Remove Grammerly Open Tags
-*Find:* <g(.*?)>
+*Find:* `<g(.*?)>`
 *Replace:* null
 
 19. Remove Grammerly Close Tags
-*Find:* </g>
+*Find:* `</g>`
 *Replace:* null
 
 ## Search for Media (using Find All)
-*Find:* <iframe(.*?)>
+*Find:* `<iframe(.*?)>`
 
 ## Wildcards
 - (.*?)
