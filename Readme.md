@@ -20,39 +20,39 @@ After running each expression, we would zip the files back up and upload them ba
 
 ## Remove HTML Comments
 *Find:* `<!--(.*?)-->`
-*Replace:* null 
+*Replace:* `null` 
 
 ## Remove Header Tags (and everything between them)
 *Find:* `<header(.*?)>[^"]*</header>`
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Opening Layer/Div Tags
 *Find:* `<div(.*?)>`
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Closing Div Tags
 *Find:* `</div>`
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Opening Section Tags
 *Find:* `<section(.*?)>`
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Closing Section Tags
 *Find:* `</section>`
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Opening Article Tags
 *Find:* `<article(.*?)>`
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Closing Article Tags
 *Find:* `</article>'
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Stylesheet Links
 *Find:* `<link(.*?)>`
-*Replace:* null
+*Replace:* `null`
 
 *Note:* Will remove `<link>` tags where ever they are in the file.
 
@@ -82,19 +82,19 @@ After running each expression, we would zip the files back up and upload them ba
 
 ## Remove Footer Tags (and everything between them)
 *Find:* `<footer(.*?)>[^"]*</footer>`
-*Replace:* null
+*Replace:* `null`
 
 ## Remove Grammerly Open Tags
 *Find:* `<g(.*?)>`
-*Replace:* null
+*Replace:* `null`
 
 19. Remove Grammerly Close Tags
 *Find:* `</g>`
-*Replace:* null
+*Replace:* `null`
 
 ## Search for Media (using Find All)
 *Find:* `<iframe(.*?)>`
 
 ## Wildcards
-- (.*?)
-- [^"]*
+- `(.*?)`
+- `[^"]*`
