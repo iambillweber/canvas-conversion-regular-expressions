@@ -47,7 +47,7 @@ After running each expression, we would zip the files back up and upload them ba
 *Replace:* `null`
 
 ## Remove Closing Article Tags
-*Find:* `</article>'
+*Find:* `</article>`
 *Replace:* `null`
 
 ## Remove Stylesheet Links
